@@ -1,7 +1,7 @@
 x = 140
 y = 40
 import os
-os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (x,y)
+os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (x,y)       # arrange position of window
 
 
 import pygame, sys, math
@@ -9,7 +9,7 @@ from pygame.locals import *
 import random
 
 WINDOWWIDTH = 720                          # size of window's width in pixels
-WINDOWHEIGHT = 720                         # size of windows' height in pixels
+WINDOWHEIGHT = 720                         # size of window's height in pixels
 CELLSIZE = 12                               # size of box height & width in pixels
 
 BLACK    = (  0,   0,   0)
