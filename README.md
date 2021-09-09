@@ -1,4 +1,4 @@
-# shadows
+# Shadows
 These python files produce pygame boards where you get the two dimensional shadows of whatever you draw  
 ## shadow1
 1. A yellow point is considered as the light source
